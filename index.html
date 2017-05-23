@@ -4,15 +4,23 @@
     <link rel="stylesheet" href="build/css/vendor.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Weather Node</title>
   </head>
   <body>
     <div class="container">
-      <h1>Get Weather Conditions From Anywhere!</h1>
-      <label for="location">Enter a location:</label>
-      <input id="location" type="text">
-      <button class="btn-success" id="weather-location">Get Current Humidity!</button>
+      <div class="header jumbotron">
+        <h1>Get Weather Conditions From Anywhere!</h1>
+        <label for="location">Enter a location:</label>
+        <input id="location" type="text">
+        <button class="btn-success" id="weather-location">Get Current Weather!</button>
+      </div>
       <div class="showWeather"></div>
+      <h2><span class="temp"></span></h2>
+      <h2><span class="kelvin"></span></h2>
+      <h2><span class="celcius"></span></h2>
+      <button id='kelvin' class="btn btn-danger">Show/Hide Kelvin</button>
+      <button id='celcius' class="btn btn-info">Show/Hide Celcius</button>
     </div>
   </body>
 </html>

@@ -1,0 +1,43 @@
+.kelvin {
+  display: none;
+}
+
+.celcius {
+  display: none;
+}
+
+#kelvin, #celcius {
+  display: none;
+}
+body {
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/weather.jpg');
+}
+
+.sunny {
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/sunny.jpg');
+}
+
+.meh {
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/meh.jpg');
+}
+
+.cloudy {
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/stormy.jpg');
+  color: white;
+}
+
+.jumbotron {
+  color: black;
+}

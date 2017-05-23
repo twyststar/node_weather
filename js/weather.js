@@ -12,11 +12,15 @@ tempKel = function(degFar) {
 }
 
 clouds = function(cloudData) {
+  $('body').removeClass()
   if (cloudData >= 75) {
+    $('body').addClass('cloudy')
     return "mostly cloudy.";
   }else if (cloudData >= 40) {
+    $('body').addClass('meh')
     return "partly cloudy.";
   }else {
+    $('body').addClass('sunny')
     return "mostly sunny.";
   }
 }
